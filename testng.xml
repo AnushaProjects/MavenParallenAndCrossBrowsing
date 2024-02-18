@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowserTest" parallel="methods" thread-count="7" >
+  
+
+	 <test name="BrowserTest">
+        <parameter name="Browser" value="${browser}"></parameter>
+        <classes>
+            <class name="testrunner.TestRunner1"></class>
+        </classes>
+    </test> 
+    
+
+</suite>
+
+
+
